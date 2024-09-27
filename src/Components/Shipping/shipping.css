@@ -1,0 +1,26 @@
+.shipping-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.shipping-data-filed{
+    margin: 10px 0;
+
+}
+
+.shipping-data-filed input{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+}
+
+.shipping-next-btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: cadetblue;
+    color: white;
+}

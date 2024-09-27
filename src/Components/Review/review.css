@@ -1,0 +1,33 @@
+.review-testmonials-heading{
+    color: black;
+}
+
+.color{
+    background-color: aqua;
+}
+
+
+
+
+.rating-box{
+    width: 50%;
+    padding: 0 50px;
+    flex-direction: column;
+
+}
+
+.rating-box div{
+    padding: 5px 0;
+}
+
+
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}

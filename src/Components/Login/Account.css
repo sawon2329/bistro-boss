@@ -1,0 +1,11 @@
+.owner-details-container{
+    width: 30%;
+}
+
+.details-container{
+    width: 60%;
+}
+
+.owner-photo img{
+    border-radius: 50%;
+}

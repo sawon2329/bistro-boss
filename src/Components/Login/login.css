@@ -1,0 +1,110 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.login-content-container{
+    width: 60%;
+    height: 70vh;
+    border: 1px solid transparent;
+    box-shadow: 5px 3px 10px 2px rgb(211, 211, 211);
+}
+
+.login-img img{
+    width: 100%;
+}
+
+.login-content{
+    width: 45%;
+}
+
+.login-content h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.login-input-tag{
+    width: 220px;
+    height: 4vh;
+    padding: 5px 5px 5px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 3px 0 5px 0;
+}
+
+.login-input-label{
+    padding: 0 0 0 5px;
+
+}
+
+
+
+.submit-button button{
+    width: 100%;
+    background-color: #D1A054;
+}
+
+.new-account-text{
+    cursor: default;
+    color: #086600;
+
+}
+
+.new-account-link{
+    text-decoration: none;
+}
+
+.new-and-create{
+    margin: 2% 0;
+}
+
+
+.sing-in-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sing-icon-container{
+    margin-top: 3%;
+}
+
+
+.sing-account-icon{
+    border: 1px solid black;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+    border-radius: 50%;
+    color: black;
+    transition: scale 0.5s ease,color 0.5s ease,border-color 0.5s ease ;
+}
+
+.sing-account-icon:hover{
+    scale: 1.10;
+    color: #CD5C08;
+    border-color: #b19300;
+}
+
+
+.error-message{
+    text-align: center;
+    height: 10px;
+}
+
+.errorMessage{
+    color: red;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.show{
+    opacity: 1;
+
+
+}
+

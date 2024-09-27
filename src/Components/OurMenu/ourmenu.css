@@ -1,0 +1,93 @@
+.menu-font-cover{
+    width: 100%;
+    height: 90vh;
+}
+
+.cover-data-container{
+    height: 82vh;
+}
+
+.cover-data{
+    width: 60%;
+    height: 55vh;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    flex-direction: column;
+}
+
+.cover-data h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+
+.todays-offer{
+    padding: 60px 0;
+    width: 100%;
+}
+
+
+.dont-miss{
+    color: #D99904;
+}
+
+.offer-heading-container{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.offer-heading{
+    width: 16%;
+}
+
+
+
+
+/*desserts container*/
+.menu-section-container{
+    margin-bottom: 5%;
+}
+
+.heaidng-menu-food{
+
+    padding-bottom: 10px;
+}
+
+.heaidng-menu-food h3{
+    width: 23%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 10px 10px;
+    padding: 5px;
+
+}
+
+.menu-box{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2%;
+}
+
+.items-content{
+    width: 60%;
+    height: 45vh;
+    background-color: rgba(0, 0, 0, 0.708);
+    border-radius: 10px;
+    color: white;
+    flex-direction: column;
+    padding: 0 60px;
+}
+
+.items-content h1{
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.menu-items{
+    padding-top: 3%;
+}

@@ -1,0 +1,84 @@
+.ourshop-cover{
+    width: 100%;
+    height: 85vh;
+}
+
+
+.cover-content{
+    width: 100%;
+    height: 85%;
+}
+
+
+.ourshop-cover-content{
+    width: 60%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.641);
+    color: white;
+}
+
+.ourshop-cover-content h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+
+
+/* Menu section Style*/
+
+.menu-section{
+    padding: 5% 0;
+}
+
+.categoryBtn{
+    margin: 10px;
+}
+
+
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+}
+
+
+.pageChange{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0;
+}
+
+
+.arrow-icon{
+    width:50%;
+    height: 40px;
+    
+}
+
+.page-calculate{
+    width: 20%;
+}
+
+
+
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+
+.arrow-icon.disabled{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor:not-allowed;
+}
+/* Menu section Style end*/
+
+
